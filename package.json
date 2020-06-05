@@ -16,7 +16,9 @@
     "ganache": "ganache-cli",
     "migrate": "truffle migrate",
     "solium": "solium -d contracts/ --fix",
-    "test": "truffle test"
+    "test": "truffle test",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -28,17 +30,20 @@
     "url": "https://github.com/paxosglobal/busd-contracts/issues"
   },
   "homepage": "https://github.com/paxosglobal/busd-contracts#readme",
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.336.0"
+  },
   "devDependencies": {
     "eth-sig-util": "^2.1.0",
     "ganache-cli": "^6.1.2",
     "openzeppelin-test-helpers": "^0.1.1",
-    "solc": "0.4.24",
+    "solc": "0.5.11",
     "solidity-coverage": "^0.5.4",
     "solium": "^1.1.8",
     "truffle": "^5.0.0",
     "truffle-flattener": "^1.2.6",
     "truffle-hdwallet-provider": "0.0.5",
     "zos-lib": "^2.1.0"
-  }
+  },
+  "snyk": true
 }
