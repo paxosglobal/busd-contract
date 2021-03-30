@@ -35,7 +35,7 @@
     "@truffle/hdwallet-provider": "^1.2.1",
     "eth-sig-util": "^3.0.0",
     "ganache-cli": "^6.12.2",
-    "solc": "^0.4.24",
+    "solc": "^0.5.13",
     "solidity-coverage": "^0.7.14",
     "solium": "^1.2.5",
     "truffle": "^5.1.63",
