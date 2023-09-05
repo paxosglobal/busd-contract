@@ -6,4 +6,4 @@ coverage.json
 coverageEnv/
 scTopics
 allFiredEvents
-
+.idea/

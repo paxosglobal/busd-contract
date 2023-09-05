@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import "../../contracts/BUSDImplementation.sol";
+import "../BUSDImplementation.sol";
 
 contract BUSDWithBalance is BUSDImplementation {
 

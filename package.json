@@ -10,7 +10,7 @@
     "truffle-abi": "cat build/contracts/BUSDImplementation.json | jq -c .abi > BUSD.abi",
     "truffle-bin": "cat build/contracts/BUSDImplementation.json | jq  -r .bytecode > BUSD.bin",
     "compile": "truffle compile",
-    "coverage": "solidity-coverage",
+    "coverage": "truffle run coverage --network coverage",
     "flatten-impl": "truffle-flattener ./contracts/BUSDImplementation.sol > ./flattened/BUSDImplementation.sol",
     "flatten-proxy": "truffle-flattener ./contracts/zeppelin/AdminUpgradeabilityProxy.sol > ./flattened/AdminUpgradeabilityProxy.sol",
     "ganache": "ganache-cli",
@@ -38,7 +38,7 @@
     "solc": "^0.4.24",
     "solidity-coverage": "^0.7.14",
     "solium": "^1.2.5",
-    "truffle": "^5.1.63",
+    "truffle": "5.4.29",
     "truffle-flattener": "^1.5.0"
   },
   "resolutions": {
