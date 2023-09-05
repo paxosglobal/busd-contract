@@ -6,7 +6,7 @@ https://www.paxos.com/busd
 ## ABI, Address, and Verification
 
 The contract abi is in `BUSD.abi`. It is the abi of the implementation contract.
-Interaction with BUSD is done at the address of the proxy at `0x4Fabb145d64652a948d72533023f6E7A623C7C5`. See
+Interaction with BUSD is done at the address of the proxy at `0x4Fabb145d64652a948d72533023f6E7A623C7C53 `. See
 https://etherscan.io/token/0x4Fabb145d64652a948d72533023f6E7A623C7C53 for live on-chain details, and the section on bytecode verification below.
 
 The BUSD contract is based upon the PAX Standard smart contract which was audited by three third-party specialists (Nomic Labs, ChainSecurity, and Trail of Bits) in September-October 2018. In January 2019, Trail of Bits performed an additional audit for a potential upgrade to the PAX USD smart contract.
@@ -137,7 +137,7 @@ to the proxy contract.
 
 The proxy contract and implementation contracts are verified on etherscan at the following links:
 https://etherscan.io/token/0x4Fabb145d64652a948d72533023f6E7A623C7C53
-https://etherscan.io/token/0x5864c777697Bf9881220328BF2f16908c9aFCD7e
+https://etherscan.io/token/0x2a3f1a37c04f82aa274f5353834b2d002db91015
 
 Because the implementation address in the proxy is a private variable, 
 verifying that this is the proxy being used requires reading contract
