@@ -66,7 +66,7 @@ contract BUSDImplementation {
     // ERC20 BASIC DATA
     mapping(address => uint256) internal balances;
     uint256 internal totalSupply_;
-    string public constant name = "Binance USD"; // solium-disable-line
+    string public constant name = "BUSD"; // solium-disable-line
     string public constant symbol = "BUSD"; // solium-disable-line uppercase
     uint8 public constant decimals = 18; // solium-disable-line uppercase
 

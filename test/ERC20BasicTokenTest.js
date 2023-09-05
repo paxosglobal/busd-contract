@@ -19,7 +19,7 @@ contract('ERC20Basic BUSD', function ([_, admin, recipient, anotherAccount, owne
   describe('basic data', function () {
     it('has getters for the name, symbol, and decimals', async function () {
       const name = await this.token.name();
-      assert.equal(name, "Binance USD");
+      assert.equal(name, "BUSD");
       const symbol = await this.token.symbol();
       assert.equal(symbol, "BUSD");
       const decimals = await this.token.decimals();

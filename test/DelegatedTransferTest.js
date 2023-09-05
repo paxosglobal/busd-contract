@@ -55,7 +55,7 @@ contract("BetaDelegatedTransfer BUSD", function([
         },
         primaryType: "BetaDelegatedTransfer",
         domain: {
-          name: "Binance USD",
+          name: "BUSD",
           verifyingContract: this.token.address
         }
       };
