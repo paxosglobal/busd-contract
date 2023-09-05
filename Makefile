@@ -1,5 +1,5 @@
 .PHONY:all
-all: fmt compile flatten test-contracts test-contracts-coverage
+all: setup fmt generate-bin flatten test-contracts-coverage
 
 .PHONY:clean
 clean:
@@ -8,6 +8,10 @@ clean:
 ##################
 # Code
 ##################
+
+.PHONY:setup
+setup:
+	yarn install
 
 .PHONY:fmt
 fmt:

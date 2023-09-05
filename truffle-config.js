@@ -7,20 +7,23 @@ const networkAddressTestnet = "https://goerli.infura.io/v3/<your-api-key>";
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
+  plugins: ["solidity-coverage"],
   networks: {
     development: {
       host: "127.0.0.1",
       port: 8545, // ganache-cli
       network_id: "*", // Match any network id
       gas: 6700000,
-      gasPrice: 0x01
+      gasPrice: 0x01,
+      disableConfirmationListener: true
     },
     coverage: {
       host: "localhost",
       network_id: "*",
-      port: 8321,
+      port: 8555,
       gas: 10000000000000,
-      gasPrice: 0x01
+      gasPrice: 0x01,
+      disableConfirmationListener: true
     },
     mainnet: {
       network_id: 1,
