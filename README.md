@@ -1,4 +1,4 @@
-# Binance USD (BUSD)
+# BUSD (BUSD)
 Paxos-issued USD-collateralized ERC20 stablecoin public smart contract repository.
 
 https://www.paxos.com/busd
@@ -6,19 +6,19 @@ https://www.paxos.com/busd
 ## ABI, Address, and Verification
 
 The contract abi is in `BUSD.abi`. It is the abi of the implementation contract.
-Interaction with Binance USD is done at the address of the proxy at `0x4Fabb145d64652a948d72533023f6E7A623C7C5`. See
+Interaction with BUSD is done at the address of the proxy at `0x4Fabb145d64652a948d72533023f6E7A623C7C5`. See
 https://etherscan.io/token/0x4Fabb145d64652a948d72533023f6E7A623C7C53 for live on-chain details, and the section on bytecode verification below.
 
 The BUSD contract is based upon the PAX Standard smart contract which was audited by three third-party specialists (Nomic Labs, ChainSecurity, and Trail of Bits) in September-October 2018. In January 2019, Trail of Bits performed an additional audit for a potential upgrade to the PAX USD smart contract.
 
 ## Contract Specification
 
-Binance USD(BUSD) is an ERC20 token that is Centrally Minted and Burned by Paxos,
+BUSD(BUSD) is an ERC20 token that is Centrally Minted and Burned by Paxos,
 representing the trusted party backing the token with USD. 
 
 ### ERC20 Token
 
-The public interface of Binance USD is the ERC20 interface
+The public interface of BUSD is the ERC20 interface
 specified by [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md).
 
 - `name()`
