@@ -1,5 +1,5 @@
 .PHONY:all
-all: setup fmt generate-bin flatten test-contracts test-contracts-coverage
+all: setup fmt generate-bin flatten test-contracts-coverage
 
 .PHONY:clean
 clean:

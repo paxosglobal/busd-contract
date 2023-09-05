@@ -148,13 +148,15 @@ by pasting the network address in `truffle-config.js` and running
 
 ## Contract Tests
 
-To run smart contract tests first start 
+As a first step run the initial setup
 
-`ganache-cli`
+`make setup`
 
-in another terminal
+Next to run the smart contract tests, in another terminal, start ganache-cli
 
-Then run 
+`make ganache`
+
+Then in the original terminal where setup was executed, run
 
 `make test-contracts`
 
