@@ -31,7 +31,6 @@
   "dependencies": {},
   "devDependencies": {
     "@openzeppelin/test-helpers": "^0.5.10",
-    "@openzeppelin/upgrades": "^2.8.0",
     "@truffle/hdwallet-provider": "^1.2.1",
     "eth-sig-util": "^3.0.0",
     "ganache-cli": "^6.12.2",
